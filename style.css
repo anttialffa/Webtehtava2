@@ -18,7 +18,17 @@ h1 {
     padding:40px;
     text-align: center;
     margin: 0;
-    margin-bottom:90px;
+}
+
+.galleria {
+    display:flex;
+    justify-content: center;
+
+    img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    }
 }
 
 #johdanto {
